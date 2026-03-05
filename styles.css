@@ -1,10 +1,13 @@
 body {
-    width: 1440px;
-    height: 960px;
+    width: 100%;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .qr-container {
 background-color: hsl(0, 0%, 100%);
@@ -59,6 +62,9 @@ box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
     padding-bottom: 24px;
 }
 
+
+/* Mobile Design */
+
 @media (max-width: 375px) {
     body {
         width: 100%;
@@ -66,4 +72,7 @@ box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
         padding: 16px;
         box-sizing: border-box;
     }
+
+    
 }
+
